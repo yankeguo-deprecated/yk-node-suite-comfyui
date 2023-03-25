@@ -2,11 +2,6 @@
 
 y.k.'s ComfyUI node suite
 
-## Features
-
-* `YKImagePadForOutpaint`
-* `YKMaskToImage`
-
 ## Installation
 
 * Clone to `custom_nodes` directory
@@ -18,6 +13,20 @@ git clone https://github.com/guoyk93/yk-node-suite-comfyui.git yk_node
 ```
 
 * Restart `ComfyUI`
+
+## Features
+
+**YKImagePadForOutpaint**
+
+Pad image with transparent pixels and generate a corresponding mask for outpainting
+
+* Support `top`, `left`, `bottom`, `right` padding
+
+* Support `feathering` for smooth transition
+
+**YKMaskToImage**
+
+Convert a mask to a colored image for mask debugging
 
 ## Donation
 
