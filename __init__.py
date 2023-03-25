@@ -1,3 +1,4 @@
+from .utils import print_success
 from .image import *
 from .mask import *
 
@@ -6,4 +7,4 @@ NODE_CLASS_MAPPINGS = {
     "YKMaskToImage": YKMaskToImage,
 }
 
-print('\033[34mYK Node Suite: \033[92mLoaded\033[0m')
+print_success("loaded")
